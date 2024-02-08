@@ -1,0 +1,97 @@
+body{
+    background-color: darkgoldenrod;
+}
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: darkgoldenrod;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.top-nav a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.top-nav a:hover {
+    color: #007bff;
+}
+.div{
+    display: flex;
+}
+.container{
+    width: 230px;
+    height: 56px;
+}
+.box{
+  background: border-box,goldenrod;
+}
+h1{
+    color: black ;
+}
+.welcome{
+    position: relative;
+    text-align: left;
+    color: black;
+}
+.bottom-left{
+    bottom: -230px;
+    left: 16px;
+    color:black;
+}
+.box2{
+    border-style: none;
+}
+.homepage{
+    display: flex;
+    justify-content: flex-start;
+}
+.pagebar{
+    display: flex;
+    flex-direction: row;
+}
+.table,th,td,tr,p{
+    border: solid black 1px; 
+    display: flex;
+    justify-content: left;
+    text-align: center;
+}
+p{
+    display: contents;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 12px;
+    font-size: 11px;
+}
+.buttons{
+    display: flex ;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100px;
+    height: 40px;
+}
+.avatar{
+    vertical-align: middle;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.right{
+    display: contents;
+    justify-content: flex-end;
+    flex-direction: row;
+    object-fit: contain;
+}
+.img{
+    display: flex;
+    justify-self: flex-end;
+    flex-direction: row-reverse;
+}
+
+
